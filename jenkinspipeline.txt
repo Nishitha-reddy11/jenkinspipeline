@@ -5,6 +5,9 @@ stages
 stage('build')
 steps{echo 'build successful'}
 }
+stage('build')
+steps{echo 'build successful'}
+}
 stage('test')
 {
 steps{echo 'test done'}
